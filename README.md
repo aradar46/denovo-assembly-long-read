@@ -3,7 +3,8 @@
 
 Long read sequencing technologies such as PacBio and Oxford Nanopore are becoming more popular in the field of genomics. These technologies are capable of generating long reads. The long reads are useful for assembling the genome of complex organisms. In this project, we will use the PacBio HiFi reads to assemble the genome of yeast Saccharomyces cerevisiae.
 
-> "Software installation is like a box of chocolates, you never know what you're gonna get. No matter what tool you use, it always finds a way to throw an error and refuse to install. It's a never-ending battle of dependency hell, where you're constantly searching for missing packages and praying for a successful installation. But hey, at least we can always count on a good cup of coffee to get us through it all!"
+
+> "Software installation is like a box of chocolates, you never know what you're gonna get. No matter what tool you use, conda, mamba, sudo, pip,... it always finds a way to throw an error and refuse to install.
 >
 > ---- A frustrated bioinformatician
 
