@@ -1,0 +1,30 @@
+reference chromosomes:
+	NC_001133.9 (total length: 230218 bp, total length without N's: 230218 bp, maximal covered length: 183759 bp)
+	NC_001134.8 (total length: 813184 bp, total length without N's: 813184 bp, maximal covered length: 804803 bp)
+	NC_001135.5 (total length: 316620 bp, total length without N's: 316620 bp, maximal covered length: 303882 bp)
+	NC_001136.10 (total length: 1531933 bp, total length without N's: 1531933 bp, maximal covered length: 1502057 bp)
+	NC_001137.3 (total length: 576874 bp, total length without N's: 576874 bp, maximal covered length: 568511 bp)
+	NC_001138.5 (total length: 270161 bp, total length without N's: 270161 bp, maximal covered length: 264023 bp)
+	NC_001139.9 (total length: 1090940 bp, total length without N's: 1090940 bp, maximal covered length: 1090795 bp)
+	NC_001140.6 (total length: 562643 bp, total length without N's: 562643 bp, maximal covered length: 541143 bp)
+	NC_001141.2 (total length: 439888 bp, total length without N's: 439888 bp, maximal covered length: 434014 bp)
+	NC_001142.9 (total length: 745751 bp, total length without N's: 745751 bp, maximal covered length: 738772 bp)
+	NC_001143.9 (total length: 666816 bp, total length without N's: 666816 bp, maximal covered length: 666440 bp)
+	NC_001144.5 (total length: 1078177 bp, total length without N's: 1078177 bp, maximal covered length: 1050751 bp)
+	NC_001145.3 (total length: 924431 bp, total length without N's: 924431 bp, maximal covered length: 899944 bp)
+	NC_001146.8 (total length: 784333 bp, total length without N's: 784333 bp, maximal covered length: 768966 bp)
+	NC_001147.6 (total length: 1091291 bp, total length without N's: 1091291 bp, maximal covered length: 1085044 bp)
+	NC_001148.4 (total length: 948066 bp, total length without N's: 948066 bp, maximal covered length: 932464 bp)
+	NC_001224.1 (total length: 85779 bp, total length without N's: 85779 bp, maximal covered length: 17318 bp)
+
+total genome size: 12157105
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+SRR13577846              | 97.496    | 1.066       | 79        | -         | -         | -         | -         |

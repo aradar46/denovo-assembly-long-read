@@ -1,0 +1,115 @@
+/home/inf-48-2022/miniconda3/envs/quast_env/bin/quast -r ../data/ref.fna 2_assembly/SRR13577846.fa
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-6.1.12-100.fc36.x86_64-x86_64-with-fedora-36-Thirty_Six (linux_64)
+  Python version: 3.6.13
+  CPUs number: 16
+
+Started: 2023-02-22 23:06:28
+
+Logging to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /home/inf-48-2022/denovo-assembly-long-read
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/inf-48-2022/data/ref.fna ==> ref
+
+Contigs:
+  Pre-processing...
+  2_assembly/SRR13577846.fa ==> SRR13577846
+
+2023-02-22 23:06:29
+Running Basic statistics processor...
+  Reference genome:
+    ref.fna, length = 12157105, num fragments = 17, GC % = 38.15
+  Contig files: 
+    SRR13577846
+  Calculating N50 and L50...
+    SRR13577846, N50 = 809047, L50 = 6, Total length = 12730920, GC % = 38.44, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/basic_stats/GC_content_plot.pdf
+  Drawing SRR13577846 GC content plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/basic_stats/SRR13577846_GC_content_plot.pdf
+Done.
+
+2023-02-22 23:06:30
+Running Contig analyzer...
+  SRR13577846
+  Logging to files /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/contigs_reports/contigs_report_SRR13577846.stdout and contigs_report_SRR13577846.stderr...
+  Aligning contigs to the reference
+  /home/inf-48-2022/miniconda3/envs/quast_env/lib/python3.6/site-packages/quast_libs/minimap2/minimap2 \
+  -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ \
+  200 -g 2500 --score-N 2 --cs -t 4 quast_results/results_2023_02_22_23_06_28/quast_corrected_input/ref.fna \
+  quast_results/results_2023_02_22_23_06_28/quast_corrected_input/SRR13577846.fa > \
+  quast_results/results_2023_02_22_23_06_28/contigs_reports/minimap_output/SRR13577846.coords_tmp \
+  2>> quast_results/results_2023_02_22_23_06_28/contigs_reports/contigs_report_SRR13577846.stderr
+  Analysis is finished.
+
+  Creating total report...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2023-02-22 23:06:35
+Running NA-NGA calculation...
+  SRR13577846, Largest alignment = 843303, NA50 = 273893, NGA50 = 284119, LA50 = 13, LGA50 = 12
+  Drawing cumulative plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/aligned_stats/NGAx_plot.pdf
+Done.
+
+2023-02-22 23:06:35
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  SRR13577846
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2023-02-22 23:06:38
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2023-02-22 23:06:39
+RESULTS:
+  Text versions of total report are saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/report.html
+  PDF version (tables and plots) is saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/report.pdf
+  Icarus (contig browser) is saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/icarus.html
+  Log is saved to /home/inf-48-2022/denovo-assembly-long-read/quast_results/results_2023_02_22_23_06_28/quast.log
+
+Finished: 2023-02-22 23:06:39
+Elapsed time: 0:00:10.979760
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
