@@ -3,14 +3,16 @@
 
 Long read sequencing technologies such as PacBio and Oxford Nanopore are becoming more popular in the field of genomics. These technologies are capable of generating long reads. The long reads are useful for assembling the genome of complex organisms. In this project, we will use the PacBio HiFi reads to assemble the genome of yeast Saccharomyces cerevisiae.
 
+> "Software installation is like a box of chocolates, you never know what you're gonna get. No matter what tool you use, it always finds a way to throw an error and refuse to install. It's a never-ending battle of dependency hell, where you're constantly searching for missing packages and praying for a successful installation. But hey, at least we can always count on a good cup of coffee to get us through it all!"
+>
+> ---- A frustrated bioinformatician
+
 
 **Data**
 
-I used the filtered and clipped version of fastq file for the analysis. The link to the file is given below:
+I used the filtered and clipped version of fastq file for the analysis [(link)](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR13577846&display=download)
 
-https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR13577846&display=download
-
-For simplicity, I just put all the inputs in **../data/** folder to make `git push` easier (we could use .gitignore too). Don't be worry, everytime we need a input, I will mention the url.
+For simplicity, I just put all the inputs in **../data/** folder to make `git push` easier (we could use .gitignore too). Don't be worry, everytime we need an input, I will mention the url.
 
 
 **1 - Quality Control of the reads**
@@ -35,7 +37,6 @@ $  firefox 1-QC/SRR13577846_fastqc.html  # open the report in firefox
 ```
 
 There are some alert in fastqc report. We can ignore them for now as it is an timely intensive excerise. Maybe we will come back to this later.
-
 
 
 **2 - Perform de novo assembly using Hifiasm**
@@ -93,7 +94,6 @@ $ quast -r ../data/ref.fna 2_assembly/SRR13577846.fa -o 3_QUAST/
 $ firefox 3_QUAST/report.html
 
 ```
-
 
 
 **4 - Perform quality assessment using BUSCO**
