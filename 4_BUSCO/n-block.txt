@@ -1,0 +1,3 @@
+Below you find a length distribution of the gaps ('N' tracts) in the sequences you submitted. As a result of genome scaffolding, for example, with mate-pair or Hi-C reads, the intervals between the known sequences are filled with estimated or arbitrary round numbers of unknown bases ('N'). This gap length distribution is expected to instruct you with how you could proceed to downstream steps including gene prediction, possibly via further gap closure.
+
+Gap(N)length	Count

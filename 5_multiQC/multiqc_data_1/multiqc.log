@@ -1,0 +1,26 @@
+[2023-02-23 02:00:11,789] multiqc                                            [DEBUG  ]  This is MultiQC v1.14
+[2023-02-23 02:00:11,789] multiqc                                            [DEBUG  ]  Command used: /home/adr/.local/bin/multiqc 1-QC/ 3_QUAST/ 4_BUSCO/ -o 5_multiQC/
+[2023-02-23 02:00:12,154] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.14
+[2023-02-23 02:00:12,155] multiqc                                            [DEBUG  ]  Working dir : /home/adr/Dropbox/denovo-assembly-long-read
+[2023-02-23 02:00:12,155] multiqc                                            [DEBUG  ]  Template    : default
+[2023-02-23 02:00:12,155] multiqc                                            [DEBUG  ]  Running Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
+[2023-02-23 02:00:12,155] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, cellranger, snpsplit, odgi, pangolin, nextclade, humid, kat, leehom, adapterRemoval, bbduk, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2023-02-23 02:00:12,156] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmp2ctldnki
+[2023-02-23 02:00:12,277] multiqc                                            [INFO   ]  Search path : /home/adr/Dropbox/denovo-assembly-long-read/1-QC
+[2023-02-23 02:00:12,278] multiqc                                            [INFO   ]  Search path : /home/adr/Dropbox/denovo-assembly-long-read/3_QUAST
+[2023-02-23 02:00:12,278] multiqc                                            [INFO   ]  Search path : /home/adr/Dropbox/denovo-assembly-long-read/4_BUSCO
+[2023-02-23 02:01:04,227] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 7398] // [skipped_no_match: 4340] // [skipped_ignore_pattern: 18] // [skipped_directory_fn_ignore_dirs: 4]
+[2023-02-23 02:01:04,981] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.5.1
+[2023-02-23 02:01:04,982] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.5.1
+[2023-02-23 02:01:04,983] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2023-02-23 02:01:04,989] multiqc.modules.quast.quast                        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR13577846
+[2023-02-23 02:01:04,989] multiqc.modules.quast.quast                        [INFO   ]  Found 1 reports
+[2023-02-23 02:01:05,009] multiqc.modules.busco.busco                        [INFO   ]  Found 1 reports
+[2023-02-23 02:01:05,016] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 1 reports
+[2023-02-23 02:01:05,053] multiqc                                            [INFO   ]  Compressing plot data
+[2023-02-23 02:01:05,081] multiqc                                            [WARNING]  Previous MultiQC output found! Adjusting filenames..
+[2023-02-23 02:01:05,081] multiqc                                            [WARNING]  Use -f or --force to overwrite existing reports instead
+[2023-02-23 02:01:05,081] multiqc                                            [INFO   ]  Report      : 5_multiQC/multiqc_report_1.html
+[2023-02-23 02:01:05,082] multiqc                                            [INFO   ]  Data        : 5_multiQC/multiqc_data_1
+[2023-02-23 02:01:05,082] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp2ctldnki/multiqc_data' to '5_multiQC/multiqc_data_1'
+[2023-02-23 02:01:05,225] multiqc                                            [INFO   ]  MultiQC complete

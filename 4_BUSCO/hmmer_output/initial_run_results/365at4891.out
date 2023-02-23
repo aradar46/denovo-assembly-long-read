@@ -1,0 +1,25 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+C0000000005_ptg000005l:1295110-1300284 -           1725 365at4891            -           1303         0 2554.8 154.0   1   6         0         0 2448.5   0.1     1  1250    51  1449    51  1477 0.94 -
+C0000000005_ptg000005l:1295110-1300284 -           1725 365at4891            -           1303         0 2554.8 154.0   2   6   6.6e-12   5.8e-09   31.3  20.0  1251  1303  1518  1570  1503  1570 0.88 -
+C0000000005_ptg000005l:1295110-1300284 -           1725 365at4891            -           1303         0 2554.8 154.0   3   6   1.9e-11   1.7e-08   29.7  28.4  1264  1303  1566  1605  1565  1605 0.98 -
+C0000000005_ptg000005l:1295110-1300284 -           1725 365at4891            -           1303         0 2554.8 154.0   4   6   1.8e-08   1.6e-05   19.8  40.6  1264  1296  1615  1647  1601  1654 0.47 -
+C0000000005_ptg000005l:1295110-1300284 -           1725 365at4891            -           1303         0 2554.8 154.0   5   6   4.1e-11   3.6e-08   28.6  28.3  1264  1303  1643  1682  1642  1682 0.98 -
+C0000000005_ptg000005l:1295110-1300284 -           1725 365at4891            -           1303         0 2554.8 154.0   6   6   3.2e-10   2.9e-07   25.7  24.7  1264  1303  1678  1717  1677  1717 0.97 -
+C0000000011_ptg000011l:540744-545123   -           1460 365at4891            -           1303  2.6e-247  820.9   5.5   1   2   4.7e-16   4.1e-13   45.0   1.0     2    67    52   118    51   170 0.90 -
+C0000000011_ptg000011l:540744-545123   -           1460 365at4891            -           1303  2.6e-247  820.9   5.5   2   2  9.6e-237  8.5e-234  776.1   0.2   119  1245   227  1431   220  1441 0.83 -
+C0000000011_ptg000011l:956450-961438   -           1663 365at4891            -           1303    4e-164  545.3  14.7   1   4   1.8e-08   1.6e-05   19.8   0.2     1    67    47   113    47   126 0.88 -
+C0000000011_ptg000011l:956450-961438   -           1663 365at4891            -           1303    4e-164  545.3  14.7   2   4  1.3e-120  1.2e-117  391.4   0.8   138   772   347  1061   303  1077 0.74 -
+C0000000011_ptg000011l:956450-961438   -           1663 365at4891            -           1303    4e-164  545.3  14.7   3   4     4e-27   3.5e-24   81.7   0.1   901   992  1170  1266  1153  1282 0.81 -
+C0000000011_ptg000011l:956450-961438   -           1663 365at4891            -           1303    4e-164  545.3  14.7   4   4   2.5e-19   2.2e-16   55.8   0.2  1111  1245  1516  1657  1471  1662 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/365at4891.hmm
+# Target file:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas
+# Option settings: hmmsearch --domtblout /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/hmmer_output/initial_run_results/365at4891.out --cpu 1 /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/365at4891.hmm /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas 
+# Current dir:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478
+# Date:            Thu Feb 23 09:51:11 2023
+# [ok]

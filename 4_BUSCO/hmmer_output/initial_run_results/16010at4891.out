@@ -1,0 +1,26 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+C0000000009_ptg000009l:433177-434637   -            312 16010at4891          -            251  5.3e-177  583.3   1.2   1   1  2.8e-179  6.2e-177  583.1   1.2     1   251    45   300    45   300 0.98 -
+C0000000007_ptg000007l:223186-224088   -            301 16010at4891          -            251  2.4e-124  410.8   0.4   1   1  1.3e-126  2.9e-124  410.6   0.4     1   249    41   294    41   296 0.98 -
+C0000000005_ptg000005l:188854-189756   -            301 16010at4891          -            251    6e-124  409.5   0.5   1   1  3.3e-126  7.2e-124  409.3   0.5     1   249    41   294    41   296 0.98 -
+C0000000003_ptg000003l:730126-731034   -            303 16010at4891          -            251  3.9e-117  387.2   0.3   1   1  2.2e-119  4.9e-117  386.9   0.3     1   249    45   298    45   300 0.96 -
+C0000000005_ptg000005l:1285107-1285937 -            277 16010at4891          -            251   7.3e-85  281.5   0.2   1   1     4e-87   8.9e-85  281.3   0.2    10   238    39   272    32   277 0.96 -
+C0000000005_ptg000005l:1380946-1381785 -            280 16010at4891          -            251   1.4e-84  280.6   0.2   1   1   7.6e-87   1.7e-84  280.4   0.2    10   243    19   257    12   265 0.95 -
+C0000000005_ptg000005l:1134946-1135869 -            308 16010at4891          -            251   3.3e-75  249.9   0.1   1   1   1.9e-77   4.1e-75  249.6   0.1     8   247    39   285    32   289 0.94 -
+C0000000005_ptg000005l:921032-921853   -            274 16010at4891          -            251   4.7e-74  246.1   0.5   1   1   2.4e-76   5.4e-74  245.9   0.5     7   247    26   271    20   274 0.95 -
+C0000000014_ptg000014l:91048-91923     -            292 16010at4891          -            251     3e-66  220.6   0.7   1   1   2.3e-68   5.2e-66  219.8   0.7     2   233    30   279    29   291 0.89 -
+C0000000013_ptg000013l:533656-534444   -            263 16010at4891          -            251   1.8e-62  208.2   1.3   1   1   1.4e-64   3.1e-62  207.4   1.3     4   238     2   261     1   263 0.88 -
+C0000000007_ptg000007l:155852-156709   -            286 16010at4891          -            251   1.6e-60  201.8   0.6   1   2   4.6e-56     1e-53  179.5   0.5     2   167     6   171     5   195 0.95 -
+C0000000007_ptg000007l:155852-156709   -            286 16010at4891          -            251   1.6e-60  201.8   0.6   2   2   1.4e-07   3.1e-05   20.7   0.0   174   237   209   283   197   286 0.79 -
+C0000000008_ptg000008l:358938-360461   -            508 16010at4891          -            251   2.7e-58  194.5   0.0   1   1   1.8e-60   3.9e-58  194.0   0.0    11   235   236   466   220   471 0.91 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/16010at4891.hmm
+# Target file:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas
+# Option settings: hmmsearch --domtblout /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/hmmer_output/initial_run_results/16010at4891.out --cpu 1 /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/16010at4891.hmm /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas 
+# Current dir:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478
+# Date:            Thu Feb 23 09:51:02 2023
+# [ok]

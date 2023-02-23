@@ -1,0 +1,2 @@
+Module	Section	Sample Name	Source
+BUSCO	all_sections	short	/home/adr/Dropbox/denovo-assembly-long-read/4_BUSCO/short_summary.txt

@@ -1,0 +1,25 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+C0000000011_ptg000011l:626433-627215   -            261 21752at4891          -            226  9.7e-137  451.0   0.3   1   1  6.2e-139  1.4e-136  450.6   0.3     1   226     1   244     1   244 0.96 -
+C0000000006_ptg000006l:315866-316626   -            215 21752at4891          -            226   5.1e-31  105.2   0.3   1   1   2.5e-33   5.5e-31  105.1   0.3    10   198     9   200     1   214 0.90 -
+C0000000003_ptg000003l:206661-207521   -            287 21752at4891          -            226   3.9e-25   86.0   0.3   1   1   2.3e-27   5.1e-25   85.6   0.3    17   193    72   253    59   265 0.89 -
+C0000000008_ptg000008l:334964-335734   -            257 21752at4891          -            226   4.1e-14   49.9   0.2   1   1   2.5e-16   5.4e-14   49.5   0.2    16   175    28   196    19   203 0.85 -
+C0000000009_ptg000009l:179040-179624   -            195 21752at4891          -            226   1.2e-10   38.6   0.0   1   1     7e-13   1.6e-10   38.2   0.0    23   173     4   162     2   178 0.82 -
+C0000000008_ptg000008l:95131-95910     -            260 21752at4891          -            226   2.5e-10   37.5   0.7   1   1   1.2e-11   2.7e-09   34.1   0.7    15   176    29   204    22   227 0.71 -
+C0000000007_ptg000007l:81318-82067     -            250 21752at4891          -            226   4.5e-10   36.7   0.0   1   1   6.2e-12   1.4e-09   35.1   0.0    15   176    26   196    22   214 0.80 -
+C0000000011_ptg000011l:1013346-1014209 -            288 21752at4891          -            226   9.2e-10   35.7   0.0   1   1   8.4e-12   1.8e-09   34.7   0.0    13   176    27   200    18   206 0.79 -
+C0000000001_ptg000001l:21040-21837     -            266 21752at4891          -            226   2.3e-07   27.8   0.0   1   1   2.7e-09   5.9e-07   26.5   0.0    12   196    33   234    29   260 0.71 -
+C0000000002_ptg000002l:665727-666449   -            241 21752at4891          -            226   8.8e-05   19.4   0.0   1   1   6.2e-07   0.00014   18.7   0.0    19   156    27   170    18   181 0.77 -
+C0000000011_ptg000011l:250326-251078   -            251 21752at4891          -            226   0.00065   16.5   0.0   1   1   3.7e-06   0.00082   16.2   0.0    15   175    25   198    17   234 0.79 -
+C0000000007_ptg000007l:879553-880254   -            234 21752at4891          -            226     0.002   14.9   0.0   1   1   1.2e-05    0.0026   14.5   0.0    19   192    31   213    20   226 0.65 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/21752at4891.hmm
+# Target file:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas
+# Option settings: hmmsearch --domtblout /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/hmmer_output/initial_run_results/21752at4891.out --cpu 1 /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/21752at4891.hmm /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas 
+# Current dir:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478
+# Date:            Thu Feb 23 09:51:05 2023
+# [ok]

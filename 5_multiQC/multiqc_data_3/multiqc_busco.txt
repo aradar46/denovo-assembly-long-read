@@ -1,0 +1,2 @@
+Sample	lineage_dataset	complete	complete_single_copy	complete_duplicated	fragmented	missing	total
+short	saccharomycetes_odb10	2129.0	2085.0	44.0	2.0	6.0	2137.0

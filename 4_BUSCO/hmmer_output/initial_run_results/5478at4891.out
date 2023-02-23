@@ -1,0 +1,17 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+C0000000008_ptg000008l:1073891-1076014 -            708 5478at4891           -            464  2.1e-256  848.1  19.0   1   2      0.42   3.8e+02   -3.2   0.0     2    13   136   151   135   155 0.68 -
+C0000000008_ptg000008l:1073891-1076014 -            708 5478at4891           -            464  2.1e-256  848.1  19.0   2   2  1.2e-257    1e-254  842.5  16.1    13   462   181   688   173   690 0.92 -
+C0000000011_ptg000011l:644767-647181   -            805 5478at4891           -            464     7e-69  229.9   0.0   1   1   1.3e-71   1.2e-68  229.2   0.0    24   329   245   571   239   578 0.87 -
+C0000000011_ptg000011l:258506-260059   -            518 5478at4891           -            464   2.1e-13   47.0   0.0   1   1   5.3e-16   4.7e-13   45.9   0.0    31   224    31   243    14   281 0.81 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/5478at4891.hmm
+# Target file:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas
+# Option settings: hmmsearch --domtblout /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/hmmer_output/initial_run_results/5478at4891.out --cpu 1 /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/5478at4891.hmm /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas 
+# Current dir:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478
+# Date:            Thu Feb 23 09:51:18 2023
+# [ok]

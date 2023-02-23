@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: saccharomycetes_odb10 (Creation date: 2020-08-05, number of genomes: 76, number of BUSCOs: 2137)
+# Summarized benchmarking in BUSCO notation for file /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/SRR13577846.fa.ca
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:99.7%[S:97.6%,D:2.1%],F:0.1%,M:0.2%,n:2137	   
+	2129	Complete BUSCOs (C)			   
+	2085	Complete and single-copy BUSCOs (S)	   
+	44	Complete and duplicated BUSCOs (D)	   
+	2	Fragmented BUSCOs (F)			   
+	6	Missing BUSCOs (M)			   
+	2137	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

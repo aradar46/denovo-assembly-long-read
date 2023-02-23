@@ -1,0 +1,26 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+C0000000013_ptg000013l:272561-278260 -           1900 216at4891            -           1055         0 1390.6  35.2   1   6   2.2e-09   1.2e-06   23.9   0.1     7    55   399   455   394   461 0.81 -
+C0000000013_ptg000013l:272561-278260 -           1900 216at4891            -           1055         0 1390.6  35.2   2   6   4.5e-12   2.4e-09   32.9   3.1    52   130   522   611   500   620 0.80 -
+C0000000013_ptg000013l:272561-278260 -           1900 216at4891            -           1055         0 1390.6  35.2   3   6   8.6e-83   4.5e-80  267.0   6.5   107   412   608  1013   603  1025 0.78 -
+C0000000013_ptg000013l:272561-278260 -           1900 216at4891            -           1055         0 1390.6  35.2   4   6   8.6e-06    0.0045   12.1   0.1   414   450  1110  1146  1095  1160 0.86 -
+C0000000013_ptg000013l:272561-278260 -           1900 216at4891            -           1055         0 1390.6  35.2   5   6   3.5e-22   1.9e-19   66.3   0.1   444   553  1164  1306  1159  1375 0.78 -
+C0000000013_ptg000013l:272561-278260 -           1900 216at4891            -           1055         0 1390.6  35.2   6   6  3.1e-305  1.7e-302 1003.5   1.1   593  1055  1419  1900  1398  1900 0.96 -
+C0000000014_ptg000014l:633754-636903 -           1050 216at4891            -           1055   4.1e-72  240.7   3.9   1   2    0.0054       2.9    2.8   0.1   613   645    30    62     4    95 0.79 -
+C0000000014_ptg000014l:633754-636903 -           1050 216at4891            -           1055   4.1e-72  240.7   3.9   2   2     4e-74   2.1e-71  238.3   1.0   797  1053   775  1048   759  1049 0.90 -
+C0000000013_ptg000013l:152162-154783 -            874 216at4891            -           1055   1.8e-41  139.2   0.0   1   1   5.2e-44   2.7e-41  138.6   0.0   751  1044   577   864   503   871 0.85 -
+C0000000017_ptg000017l:614915-617845 -            977 216at4891            -           1055   1.2e-13   47.1   0.0   1   2     0.013       6.8    1.6   0.0   800   827   630   657   616   699 0.69 -
+C0000000017_ptg000017l:614915-617845 -            977 216at4891            -           1055   1.2e-13   47.1   0.0   2   2   3.8e-15     2e-12   43.1   0.0   881   956   755   832   743   852 0.88 -
+C0000000006_ptg000006l:179854-183282 -           1143 216at4891            -           1055   6.5e-13   44.7   0.0   1   2     0.014       7.3    1.5   0.0   799   827   795   823   781   864 0.67 -
+C0000000006_ptg000006l:179854-183282 -           1143 216at4891            -           1055   6.5e-13   44.7   0.0   2   2   1.9e-14     1e-11   40.7   0.0   880   956   920   998   909  1017 0.87 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/216at4891.hmm
+# Target file:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas
+# Option settings: hmmsearch --domtblout /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/hmmer_output/initial_run_results/216at4891.out --cpu 1 /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/216at4891.hmm /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas 
+# Current dir:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478
+# Date:            Thu Feb 23 09:51:05 2023
+# [ok]

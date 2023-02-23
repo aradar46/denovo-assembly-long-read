@@ -1,0 +1,21 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+C0000000006_ptg000006l:450764-452467 -            568 12732at4891          -            306   1.3e-91  304.3  16.4   1   5   1.2e-12   1.6e-09   34.6   0.1     2    59    19    95    18   110 0.79 -
+C0000000006_ptg000006l:450764-452467 -            568 12732at4891          -            306   1.3e-91  304.3  16.4   2   5   3.8e-16     5e-13   46.1   0.0    70   114   182   225   163   233 0.82 -
+C0000000006_ptg000006l:450764-452467 -            568 12732at4891          -            306   1.3e-91  304.3  16.4   3   5   7.3e-16   9.7e-13   45.2   0.3   100   156   249   316   234   320 0.78 -
+C0000000006_ptg000006l:450764-452467 -            568 12732at4891          -            306   1.3e-91  304.3  16.4   4   5     0.003       3.9    3.8   0.1   157   177   356   375   350   390 0.80 -
+C0000000006_ptg000006l:450764-452467 -            568 12732at4891          -            306   1.3e-91  304.3  16.4   5   5   2.2e-57   2.9e-54  181.6   0.8   171   294   402   541   372   567 0.82 -
+C0000000009_ptg000009l:296230-298812 -            861 12732at4891          -            306   1.1e-07   28.6   1.7   1   3    0.0014       1.9    4.8   0.0     3    27    68    92    66   134 0.81 -
+C0000000009_ptg000009l:296230-298812 -            861 12732at4891          -            306   1.1e-07   28.6   1.7   2   3   0.00078         1    5.7   0.0    74   110   265   300   218   335 0.84 -
+C0000000009_ptg000009l:296230-298812 -            861 12732at4891          -            306   1.1e-07   28.6   1.7   3   3   7.4e-07   0.00099   15.6   0.2   212   299   407   491   388   497 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/12732at4891.hmm
+# Target file:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas
+# Option settings: hmmsearch --domtblout /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/hmmer_output/initial_run_results/12732at4891.out --cpu 1 /home/deepseq/tool/BUSCO_v5/saccharomycetes_odb10/hmms/12732at4891.hmm /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478/202302230949-GVF6W5EPF13MH478_busco/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRR13577846.fa.ca.modified.fas 
+# Current dir:     /var/www/gvolante/request/project/202302230949-GVF6W5EPF13MH478
+# Date:            Thu Feb 23 09:50:59 2023
+# [ok]

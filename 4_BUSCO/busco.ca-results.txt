@@ -1,0 +1,64 @@
+Your gVolante analysis 'busco' has finished.
+
+Click here to see the results.
+https://gvolante.riken.jp/script/result.cgi?202302230949-GVF6W5EPF13MH478
+
+Or input JOB ID: 202302230949-GVF6W5EPF13MH478 to the result page.
+https://gvolante.riken.jp/results.html
+
+
+gVolante version: 2.0.0
+
+
+Summary of the Submitted Job:
+	Job ID:    202302230949-GVF6W5EPF13MH478
+	Project name:    busco
+	Fasta file:    SRR13577846.fa
+	Cut-off length for sequence statistics and composition:    1
+	Sequence type:    genome
+	Selected program:    BUSCO_v5
+	Selected ortholog set:    Saccharomycetes
+
+
+Completeness Assessment Results:    
+	Total # of core genes queried:    2137
+	# of core genes detected
+		Complete:    2129 (99.63%)
+		Complete + Partial:    2131 (99.72%)
+	# of missing core genes:    6 (0.28%)
+	Average # of orthologs per core genes:    1.02
+	% of detected core genes that have more than 1 ortholog:    2.07
+	Scores in BUSCO format:    C:99.7%[S:97.6%,D:2.1%],F:0.1%,M:0.2%,n:2137
+
+	for details of these metrics, see
+	  BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs.
+	  Simao FA, Waterhouse RM, Ioannidis P, Kriventseva EV, Zdobnov EM.
+	  Bioinformatics. 2015 Oct 1;31(19):3210-2.
+
+
+Length Statistics and Composition:
+	# of sequences:    49
+	Total length (nt):    12730920
+	Longest sequence (nt):    1506376
+	Shortest sequence (nt):    13390
+	Mean sequence length (nt):    259815
+	Median sequence length (nt):    20795
+	N50 sequence length (nt):    809047
+	L50 sequence count:    6
+	# of sequences >   1K (nt):    49 (100.0% of total number)
+	# of sequences >  10K (nt):    49 (100.0% of total number)
+	# of sequences > 100K (nt):    17 (34.7% of total number)
+	# of sequences >   1M (nt):    3 (6.1% of total number)
+	# of sequences >  10M (nt):    0 (0.0% of total number)
+	Sum length of sequences > 1M  (nt):    3716458 (29.2% of total length)
+	Sum length of sequences > 10M  (nt):    0 (0.0% of total length)
+	Base composition (%):    A:30.75, T:30.81, G:19.25, C:19.19, N:0.00, Other:0.00
+	# of gaps (>=5 N's):    0
+	GC-content (%):    38.44
+	# of sequences containing non-ACGTN (nt):    0
+
+
+gVolante Citation:
+	gVolante for standardizing completeness assessment of genome and transcriptome assemblies
+	Nishimura O, Hara Y, Kuraku S.
+	Bioinformatics. 2017 Nov 15;33(22):3635-3637.

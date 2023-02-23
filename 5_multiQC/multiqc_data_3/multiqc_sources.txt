@@ -1,0 +1,4 @@
+Module	Section	Sample Name	Source
+QUAST	all_sections	SRR13577846	/home/adr/Dropbox/denovo-assembly-long-read/3_QUAST/latest/report.tsv
+BUSCO	all_sections	short	/home/adr/Dropbox/denovo-assembly-long-read/4_BUSCO/short_summary.txt
+FastQC	all_sections	SRR13577846	/home/adr/Dropbox/denovo-assembly-long-read/1-QC/SRR13577846_fastqc.zip
