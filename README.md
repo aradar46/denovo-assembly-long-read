@@ -1,20 +1,16 @@
-
 ## Denovo Assembly for Long Read Sequences
 
 Long read sequencing technologies such as PacBio and Oxford Nanopore are becoming more popular in the field of genomics. These technologies are capable of generating long reads. The long reads are useful for assembling the genome of complex organisms. In this project, we will use the PacBio HiFi reads to assemble the genome of yeast Saccharomyces cerevisiae.
 
-
-> "Software installation is like a box of chocolates, you never know what you're gonna get. No matter what tool you use, conda, mamba, sudo, pip,... it always finds a way to throw an error and refuse to install.
+> "Software installation is like a box of chocolates, you never know what you're gonna get. No matter what tool you use, conda, mamba, sudo, pip or whatever, it always finds a way to throw an error and refuse to install.
 >
 > ---- A frustrated bioinformatician
-
 
 **Data**
 
 I used the filtered and clipped version of fastq file for the analysis [(link)](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR13577846&display=download)
 
 For simplicity, I just put all the inputs in **../data/** folder to make `git push` easier (we could use .gitignore too). Don't be worry, everytime we need an input, I will mention the url.
-
 
 **1 - Quality Control of the reads**
 
@@ -39,7 +35,6 @@ $  firefox 1-QC/SRR13577846_fastqc.html  # open the report in firefox
 
 There are some alert in fastqc report. We can ignore them for now as it is an timely intensive excerise. Maybe we will come back to this later.
 
-
 **2 - Perform de novo assembly using Hifiasm**
 
 software: Hifiasm 0.18.8-r525 [(Link)](https://hifiasm.readthedocs.io/en/latest/index.html)
@@ -62,7 +57,6 @@ $ hifiasm -o 2_assembly/SRR13577846 -t 5 ../data/SRR13577846.fastq.gz
 
 hifiasm output is a set of files. You can find the details in the documentation. We us `<>.bp.p_ctg.gfa` file which contains the assembled contigs.
 
-
 Quast and BUSCO needs contigs in fasta format. We can use `awk` to convert the gfa file to fasta file.
 
 ```console
@@ -72,7 +66,6 @@ $ awk '/^S/{print ">"$2;print$3}' 2_assembly/SRR13577846.bp.p_ctg.gfa > 2_assemb
 ```
 
 The fasta file "SRR13577846.fa" is the input for Quast and BUSCO.
-
 
 **3 - Perform quality assessment using Quast**
 
@@ -96,7 +89,6 @@ $ firefox 3_QUAST/report.html
 
 ```
 
-
 **4 - Perform quality assessment using BUSCO**
 
 software: BUSCO v4.1.4 [(link)](https://busco.ezlab.org/)
@@ -111,12 +103,19 @@ busco --list-datasets # to find lineage also can be selected autolineage
 
 ```console
 
-$ run_BUSCO.py -i <input> -o <output> -l <lineage> -m <mode> -c <threads>
+$ busco -i <input> -o <output> -l <lineage> -m <mode> -c <threads> (-f= force to override, -q=just report error)
 
 ```
 
 ```console
 
-$ run_BUSCO.py -i 2_assembly/SRR13577846.fa -o 4_BUSCO/SRR13577846 -l saccharomycetes_odb10 -m genome -c 5
+$ busco -m genome -i 2_assembly/SRR13577846.fa -o 4_BUSCO  -f -q  -l saccharomycetes_odb10 
 
+```
+
+Finally, lets look at the results with **MultiQC:**
+
+```
+$ multiqc 1-QC/ 3_QUAST/ 4_BUSCO/ -o 5_multiQC/
+$ firefox 5_multiQC/multiqc_report.html
 ```
